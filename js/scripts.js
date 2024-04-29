@@ -1,4 +1,4 @@
-//add and item
+//add an item
 function newItem () {
     let inputValue = $('#input').val();
 
@@ -10,8 +10,7 @@ function newItem () {
             const children = $(event.target).children();
             if (children.length === 0){
                 crossOut(event)
-        }
-                
+            }       
         });
     }
 }
